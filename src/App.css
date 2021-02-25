@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #000000;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.component__wrapper {
+  width: 580px;
+  margin: 10px auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 20px;
+}
+
+.form {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.form__input__container {
+  width: 35%;
+  height: 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.form__input {
+  width: 100%;
+  height: 50px;
+  border-radius: 10px;
+  padding: 10px;
+  outline: 0;
+  border: 2px solid #6f6f6f;
+}
+
+.form__button {
+  width: 20%;
+  height: 50px;
+  border-radius: 10px;
+  padding: 10px;
+  outline: 0;
+  border: 2px solid #6f6f6f;
+  background-color: #fff;
+}
+
+.form__button:hover {
+  width: 20%;
+  height: 50px;
+  border-radius: 10px;
+  padding: 10px;
+  outline: 0;
+  border: 2px solid #6f6f6f;
+  background-color: lightgray;
+}
+
+.table__header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+}
+
+.table__column {
+  width: 33.33%;
+  text-align: center;
+}
+
+.table__body {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  border: 2px solid #6f6f6f;
+  padding: 20px 0;
+  border-radius: 15px;
+}
+
+.table__row {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.table__row:last-child {
+  margin-bottom: 0;
+}
+
+.action__icons_wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.action__icon {
+  cursor: default;
+  margin-right: 5px;
+  padding: 3px;
+  border: 1px solid transparent;
+}
+
+.action__icon:hover {
+  background-color: lightgrey;
+  border-radius: 5px;
+}
+
+.action__icon:last-child {
+  margin-right: 0;
+}
