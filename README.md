@@ -1,3 +1,4 @@
+[![Build status](https://ci.appveyor.com/api/projects/status/3yd9b5dy54bypisi?svg=true)](https://ci.appveyor.com/project/shayu78/ra-steps)
 Учёт тренировок
 ===
 
